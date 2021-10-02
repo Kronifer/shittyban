@@ -21,4 +21,4 @@ func _process(_delta):
 	if completedbuttons == buttons:
 		buttons = 0
 		completedbuttons = 0
-		get_tree().change_scene("res://Scenes/EndOfGame.tscn")
+		get_tree().change_scene("res://Scenes/Level4.tscn")
